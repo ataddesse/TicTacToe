@@ -120,8 +120,8 @@ public class TicTacToe extends Application {
                         this.widthProperty().divide(2).subtract(10));
                 ellipse.radiusYProperty().bind(
                         this.heightProperty().divide(2).subtract(10));
-                ellipse.setStroke(Color.BLACK);
-                ellipse.setFill(Color.WHITE);
+                ellipse.setStroke(Color.BLUE);
+                ellipse.setFill(Color.RED);
                 getChildren().add(ellipse); // Add the ellipse to the pane
             }
         }
